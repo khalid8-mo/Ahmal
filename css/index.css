@@ -1,0 +1,179 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+
+}
+/* Start Header*/
+/*============================= Start Screnn Mobail ========================================*/
+@media(max-width:767px){
+    .header .logo{
+     position:absolute;
+     bottom:80px;
+    
+    }
+    .header .name-com {
+        position: absolute;
+        bottom: 80px
+    }
+    .contact-com .lead {
+        margin: -102px
+    }
+    footer p {
+        float: right;
+        margin-left: 121px
+    }
+    article{
+        overflow:hidden
+    }
+    article img{
+    text-align:center
+    }
+}
+/*============================= End Screnn Mobail ========================================*/
+.header i {
+    border-radius: 50%;
+    padding: 6px;
+    margin-top: 13px;
+    color:#fff
+}
+.logo{
+   
+}
+.name-com {
+    float: left;
+    position: absolute;
+    bottom: 2px;
+    right: 79px
+}
+    .name-com p {
+        margin: -9px 0 1px;
+        font-size: 16px;
+        color: #00b350
+    }
+.name-com span {
+    font-size: 28px;
+    color: #e84e1a;
+  
+}
+.header .navbar ul{
+ list-style:none
+}
+    .header .navbar ul li {
+        float: right;
+        margin-left: 20px;
+        font-size: 23px;
+        line-height: 2.9;
+    }
+    .header .navbar ul a  {
+      color:#000;
+     
+    }
+    .header .navbar ul  a:hover li {
+       color:#e84e1a;
+      
+     
+    }
+
+/* End Header*/
+/*Start slider*/
+.slider{
+    height:400px
+}
+    .slider .about-apps {
+        color: #fff;
+    
+        position: absolute;
+        top: 107px;
+       
+    }
+        .slider .about-apps h1 {
+           
+            font-size: 51px;
+        }
+
+        .slider .about-apps .lead {
+            font-size: 29px
+        }
+
+
+/*End slider*/
+.contact-com {
+    margin-top: 35px;
+}
+
+    .contact-com .lead {
+        width: 59%;
+        position: absolute;
+        right: 206px;
+        margin-top: 22px;
+        color: #2a263c
+    }
+.contact {
+    margin-top: 152px;
+    margin-bottom:40px
+}
+article {
+    background: #f2f2f2
+}
+article h2{
+    color:#e84e1a;
+}
+    article h3 {
+        font-weight: bold;
+        
+    }
+    article p {
+        font-size: 20px;
+        color: #484b72
+    }
+    article img{
+        margin-top:15px;
+        margin-bottom:18px;
+        margin-left:200px
+    }
+.distictive {
+  
+ 
+}
+    .distictive h2 {
+        padding-top: 50px;
+        color: #2f2e41;
+        margin-right: 37px
+    }
+.distictive i {
+    color: #e84e1a;
+    color: #e84e1a;
+    margin-left: 14px
+}
+    .distictive ul {
+        list-style: none;
+        font-size: 16px;
+        padding-bottom: 118px
+    }
+.footer{
+    background:#f2f2f2;
+    padding:10px
+}
+.footer i{
+    border-radius:50%;
+    color:#fff
+}
+footer {
+    background: #25263c;
+    color: #fff;
+    overflow: hidden;
+    padding:10px 0 0 0
+}
+footer p{
+    float:right;
+    padding:10px
+}
+footer div {
+    float:left
+}
